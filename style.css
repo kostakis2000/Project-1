@@ -49,3 +49,35 @@ ul li.active a{
     max-width: 1200px;
     margin: auto;
 }
+.title{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    transition: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
