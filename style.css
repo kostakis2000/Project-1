@@ -11,3 +11,31 @@ header{
     background-position: center;
     min-height: 100px;
 }
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0/5ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
